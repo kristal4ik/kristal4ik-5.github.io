@@ -1,36 +1,281 @@
-h1{
-  color: red;
-  padding-top: 10px;
-}
-.logo{
-   width: 200px;
-}
-
-div{
-  background: blue;
-  color: white;
-  width: 100px;
-  margin-bottom: 100px;
-}
-span{
-  color: red;
-}
-h2{
-  background: green;
-  color: white;
+body{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0PX;
+  padding: 0PX;
+    
 }
 
-.big{
-  height: 100px;
-  color: white;
-  padding: 30px;
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+input{
   box-sizing: border-box;
 }
-
-.margin{
-  padding-left: 100px;
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Ubuntu', sans-serif;
+}
+.header{
+  background: rgba(78,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 81px;
+color: #fff;
+display: block;
+padding-bottom: 140px;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  align-items: center;
 }
 
-ul li{
-  border: solid 1px;
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.offer{
+  margin-top: 157px;
+  /*margin-bottom: 140px;*/
+}
+.travel{
+  margin-top: 60px; 
+}
+
+
+.btn{
+  box-sizing: border-box;
+  background: #ffd429;
+  display: block;
+  width: 223px;
+  padding: 20px 0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  transition: all 0.5s ease;
+}
+.btn:hover{
+   background: #f3c71a;
+}
+
+
+.intro{
+  padding-top: 25px;
+padding-bottom: 50px;
+width: 405px;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+}
+
+.title{
+  font-size: 37px;
+}
+.title span{
+font-size: 59px;
+margin-top: 45px;
+}
+.section-title{
+font-weight: 900;
+font-size: 30px;
+text-align: center;
+}
+
+.future{
+  padding-top: 105px;
+  padding-bottom: 120px;
+  display: flex;
+  align-items: flex-end;
+}
+.good-life{
+display: flex;
+justify-content: space space-between;
+text-align: center;
+}
+/*.time-text{
+  width: 280px;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 10px; 
+}*/
+.section-title{
+  padding-bottom: 70px;
+}
+
+
+.div-title{
+  font-size: 19px;
+  font-weight: 900;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+/*.div-title-travel{
+  font-size: 19px;
+  font-weight: 900;
+  padding-left: 30px;
+  padding-top: 20px;
+}*/
+
+/*.time-text span{
+  padding-left:10px;
+}*/
+/*.time-text-travel{
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 10px; 
+}*/
+
+/*.beach{
+margin-left: 160px;
+width: 260px;
+margin-right: 140px;
+}*/
+.time{
+  width: 289px;
+}
+.mail {
+    background: #ecf3f8;
+    padding-top: 110px;
+    padding-bottom: 105px;
+}
+
+.design{
+  width: 335px;
+  height: 47px;
+}
+.btn2{
+  box-sizing: border-box;
+  background: #ffd429;
+  display: block;
+  padding: 20px 0  ;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  width: 335px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*form {
+  max-width: 340px; 
+   margin: 0 auto; 
+}*/
+ input {
+     margin: 0 auto 15px;
+     display: block;
+}
+ button {
+    margin: 0 auto; 
+    width: 340px;
+}
+
+
+
+.p{
+  text-align: center;
+  font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.footer {
+    background: #164d7a;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+
+
+
+
+
+
+
+/*Responsive*/
+
+
+
+
+/*992px-12000px*/
+@media screen and (max-width: 1200px){
+.container {
+      width: 920px;
+  }
+.wrapper{
+    flex-direction: column;
+  }
+.offer{
+    width: 100%;
+  }
+.intro{
+    width: 100%;
+  }
+.btn{
+    width: 100%;
+  }
+
+.travel{
+   display: block;
+   width: 640px;
+   margin: 72px auto 0;
+}
+
+
+}
+/*768px-992px*/
+ 
+@media screen and (max-width: 992px){
+  .container {
+      width: 720px;
+  }
+  .good-life{
+    flex-direction: column;
+  }
+  .time{
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/*576-768*/
+@media screen and (max-width: 768px){
+  .container {
+      width: 540px;
+  }
+.travel{
+  width: 500px;
+}
+
+.good-life{
+  flex-direction: column;
+}
+.time{
+  margin-bottom: 30px;
+  width: 100%;
+}
+  
+
+/*0-576*/
+@media screen and (max-width: 576px){
+.container {
+        width: 90%;
+    }
+.travel{
+    width: 300px;
+  }
+  
+  .design{
+    width: 300px
+  }
+  .btn2{
+   width: 300px;
+  }
+
 }
