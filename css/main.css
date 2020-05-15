@@ -31,12 +31,12 @@ padding-bottom: 140px;
 .container{
   width: 1170px;
   margin: 0 auto;
-  align-items: center;
 }
 
 .wrapper{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .offer{
   margin-top: 157px;
@@ -104,7 +104,7 @@ text-align: center;
     padding-top: 10px; 
 }*/
 .section-title{
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 
