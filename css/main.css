@@ -10,6 +10,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 input{
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Ubuntu', sans-serif;
@@ -39,18 +41,17 @@ padding-bottom: 140px;
   align-items: center;
 }
 .offer{
-  margin-top: 157px;
+  |/*margin-top: 157px*/;
   /*margin-bottom: 140px;*/
 }
-.travel{
-  margin-top: 60px; 
-}
+
 
 
 .btn{
   box-sizing: border-box;
   background: #ffd429;
   display: block;
+  color: black;
   width: 223px;
   padding: 20px 0;
   text-decoration: none;
@@ -66,9 +67,9 @@ padding-bottom: 140px;
 
 
 .intro{
-  padding-top: 25px;
-padding-bottom: 50px;
-width: 405px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 405px;
 font-family: 'Open Sans', sans-serif;
 font-size: 16px;
 }
@@ -96,6 +97,11 @@ text-align: center;
 display: flex;
 justify-content:  space-between;
 text-align: center;
+/*p{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}*/
+
 }
 /*.time-text{
   width: 280px;
@@ -111,8 +117,9 @@ text-align: center;
 .div-title{
   font-size: 19px;
   font-weight: 900;
-  padding-left: 30px;
-  padding-top: 20px;
+  /*padding-left: 30px;*/
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 /*.div-title-travel{
   font-size: 19px;
@@ -138,6 +145,11 @@ margin-right: 140px;
 .time{
   width: 289px;
 }
+.px{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
 .mail {
     background: #ecf3f8;
     padding-top: 110px;
