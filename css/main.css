@@ -2,21 +2,34 @@ body{
   font-family: 'Ubuntu', sans-serif;
   margin: 0PX;
   padding: 0PX;
-    
+  overflow-x: hidden; 
 }
 
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
+
 input{
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   display: block;
 }
+.animated{
+  opacity: 0;
+}
+.fonts{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
 h1,h2,h3,h4,h5,h6{
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 }
+/*.time p{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}*/
 .header{
   background: rgba(78,189,254,1);
 background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
@@ -98,11 +111,6 @@ text-align: center;
 display: flex;
 justify-content:  space-between;
 text-align: center;
-/*p{
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-}*/
-
 }
 /*.time-text{
   width: 280px;
@@ -146,15 +154,19 @@ margin-right: 140px;
 .time{
   width: 289px;
 }
-.px{
+./*fonts{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
-}
+}*/
+/*.px{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}*/
 
 .mail {
     background: #ecf3f8;
     padding-top: 110px;
-    padding-bottom: 105px;
+    padding-bottom: 110px;
 }
 
 .design{
@@ -189,8 +201,8 @@ margin-right: 140px;
  button {
     margin: 0 auto; 
     width: 340px;
-}
 
+}
 
 
 .p{
